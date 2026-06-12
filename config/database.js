@@ -4,7 +4,7 @@
  * BUG: No write latency monitoring.
  */
 module.exports = {
-  uri: process.env.MONGODB_URI',
+  uri: process.env.MONGODB_URI,
   options: {
     maxPoolSize: 50,
     minPoolSize: 5,
